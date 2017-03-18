@@ -1,0 +1,10 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@Html.ValidationSummary()
+<form action="@Url.Action("Index")" method="post">
+    <input type="text" placeholder="Insert user name" name="userName" />
+    <input type="submit" value="Eńter" />
+</form>
