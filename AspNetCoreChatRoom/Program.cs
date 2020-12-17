@@ -9,6 +9,7 @@ namespace AspNetCoreChatRoom
         {
             // Development branch changes - New Line
             // Testing staging
+            // Testing No Access Testing by unauthorized
             var host = new WebHostBuilder()
                 .UseKestrel()
                 .UseContentRoot(Directory.GetCurrentDirectory())
