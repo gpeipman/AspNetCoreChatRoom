@@ -8,6 +8,7 @@ namespace AspNetCoreChatRoom
         public static void Main(string[] args)
         {
             // Development branch changes - New Line
+            // Testing staging
             var host = new WebHostBuilder()
                 .UseKestrel()
                 .UseContentRoot(Directory.GetCurrentDirectory())
